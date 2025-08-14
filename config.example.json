@@ -1,0 +1,40 @@
+{
+  "output_dir": "enhanced_generated_music",
+  "max_concurrent_generations": 5,
+  "enable_caching": true,
+  "cache_size": 1000,
+  "quality_threshold": 0.6,
+  "auto_learning": true,
+  "audio_settings": {
+    "sample_rate": 44100,
+    "bit_depth": 16,
+    "default_format": "mp3",
+    "soundfont_path": "GeneralUser-GS.sf2"
+  },
+  "ml_settings": {
+    "style_model_path": "models/style_model.joblib",
+    "quality_model_path": "models/quality_model.joblib",
+    "enable_tensorflow": false,
+    "enable_magenta": false
+  },
+  "api_settings": {
+    "host": "127.0.0.1",
+    "port": 8000,
+    "cors_origins": ["*"],
+    "max_request_size": "50MB",
+    "rate_limit": "100/minute"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "music_generator.log",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  },
+  "generation_defaults": {
+    "num_samples": 5,
+    "tempo_range": [80, 140],
+    "duration_range": [30, 180],
+    "complexity": 0.6,
+    "diversity_threshold": 0.7
+  }
+}
