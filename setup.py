@@ -20,12 +20,12 @@ if requirements_path.exists():
 setup(
     name="enhanced-music-generator",
     version="2.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Pasindu Senevirathne",
+    author_email="pasindusenevirathne.22@cse.mrt.ac.lk",
     description="Advanced AI-powered music generation suite with ML capabilities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/enhanced-music-generator",
+    url="https://github.com/L0rd008/enhanced_music_generator",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -57,8 +57,7 @@ setup(
     },
     keywords="music generation ai ml audio synthesis algorithmic composition",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/enhanced-music-generator/issues",
-        "Source": "https://github.com/yourusername/enhanced-music-generator",
-        "Documentation": "https://enhanced-music-generator.readthedocs.io/",
+        "Bug Reports": "https://github.com/L0rd008/enhanced_music_generator/issues",
+        "Source": "https://github.com/L0rd008/enhanced_music_generator",
     },
 )
